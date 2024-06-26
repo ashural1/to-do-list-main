@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  html,
+  body,
+  #root {
+    @apply h-full;
+  }
+  body {
+    @apply bg-[url('https://www.pexels.com/ru-ru/video/7279475/')];
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
